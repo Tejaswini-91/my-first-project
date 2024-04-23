@@ -9,7 +9,7 @@ function App() {
   return (
     <>
     <div style={{ padding: '10px' }}>
-      Hello
+      <h1>Creating Increament and Decrement buttons using Redux</h1>
     </div>
     <div>
       <Counter/>
