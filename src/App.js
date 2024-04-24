@@ -1,18 +1,18 @@
 import './App.css';
-import { useSelector, useDispatch } from 'react-redux'
-import { increment, decrement } from './Redux/counterSlice'
 import Counter from './Redux/counter';
+import Login from './login-signup/login';
+
 
 
 function App() {
 
   return (
     <>
-    <div style={{ padding: '10px' }}>
-      <h1>Creating Increament and Decrement buttons using Redux</h1>
+    <div>
+      <h1>Login-SignUp page</h1>
     </div>
     <div>
-      <Counter/>
+      <Login />
     </div>
     </>
   );
